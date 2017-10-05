@@ -27,11 +27,11 @@ $(document).ready(function(){
  	return "<h2>Current Weather for "+ data.name +", "+ data.sys.country + "</h2>" +
  		   "<h3><b>Weather</b>: "+ data.weather[0].main +" </h3>" +
  		   "<h3><b>Description</b>: <img src='http://openweathermap.org/img/w/"+ data.weather[0].icon +".png'> "+ data.weather[0].description +" </h3>" +
- 		   "<h3><b>Temperatue</b>: "+ data.main.temp +"&deg;C  </h3>" +
+ 		   "<h3><b>Temperature</b>: "+ data.main.temp +"&deg;C  </h3>" +
  		   "<h3><b>Pressure</b>: "+ data.main.pressure +" </h3>" +
  		   "<h3><b>Humidity</b>: "+ data.main.humidity +" </h3>" +
- 		   "<h3><b>Min_temperatue</b>: "+ data.main.temp_min +"&deg;C </h3>" +
- 		   "<h3><b>Max_temperatue</b>: "+ data.main.temp_max +"&deg;C </h3>" +
+ 		   "<h3><b>Min_temperature</b>: "+ data.main.temp_min +"&deg;C </h3>" +
+ 		   "<h3><b>Max_temperature</b>: "+ data.main.temp_max +"&deg;C </h3>" +
  		   "<h3><b>Wind Speed</b>: "+ data.wind.speed +" m/s </h3>" ;
 
  		   
